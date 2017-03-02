@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/guipagethree">
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/skipColock"
+        android:layout_width="wrap_content"
+        android:layout_margin="7dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/skipclock"
+        android:padding="7dp"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clock"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"
+            android:text="3" />
+        <TextView
+            android:id="@+id/btn_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳过广告"
+            android:textSize="11sp"
+            android:textColor="@android:color/background_dark"/>
+    </LinearLayout>
+</FrameLayout>
+
+
+
